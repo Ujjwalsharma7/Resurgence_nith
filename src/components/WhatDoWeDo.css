@@ -1,0 +1,73 @@
+.card{
+    padding-top:30%;
+    padding-bottom: 30%;
+    
+    box-shadow: rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px;
+    
+    border-radius: 16px;
+    margin-right:4rem;
+    margin-top: 2rem;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    backdrop-filter: blur(10px) saturate(100%);
+    -webkit-backdrop-filter: blur(3px) saturate(100%);
+    background-color: rgba(17, 25, 40, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.card-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card_outer{
+    width:100%;
+}
+
+.tiles{
+    display:flex;
+    width:100%;
+
+}
+.whatdowedo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.text-intro{
+    font-size: 2em;
+}
+
+.text-overview{
+    font-size:12rem;
+    margin-bottom: 6rem;
+}
+.whatdowedo-text{
+    font-size:32px;
+    margin-bottom: 2rem;
+    width: 65%;
+
+}
+.card_title{
+    text-align: center;
+    font-size: 36px;
+}
+.card_image{
+    padding-bottom: 1rem;
+    object-fit: contain;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+.w-50{
+    width: 65%;
+}
