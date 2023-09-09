@@ -8,6 +8,11 @@
     font-weight: 400;
     src: url("./assets/fonts/vt323/vt323-regular-webfont.woff") format("woff");
 }
+
+@font-face {
+  font-family: "lato";
+  src: url("./assets/fonts/Lato/Lato-Black.ttf") format("ttf");
+}
 :root {
     background-color: #171717;
     font-size: 16px;
