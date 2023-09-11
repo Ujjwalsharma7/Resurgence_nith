@@ -5,7 +5,7 @@ import FlappyBird from "../assets/flappy_bird/game";
 const GameOn = () => {
     useEffect(() => {
         FlappyBird();
-    }, []);
+    });
     return (
         <>
             <div className="grid lg:grid-cols-2">

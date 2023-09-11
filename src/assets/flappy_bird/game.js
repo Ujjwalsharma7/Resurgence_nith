@@ -317,11 +317,11 @@ export default function FlappyBird() {
   bird.animations[1].sprite.src = b1;
   bird.animations[2].sprite.src = b2;
   bird.animations[3].sprite.src = b0;
-  // SFX.start.src = "sfx/start.wav";
-  // SFX.flap.src = "sfx/flap.wav";
-  // SFX.score.src = "sfx/score.wav";
-  // SFX.hit.src = "sfx/hit.wav";
-  // SFX.die.src = "sfx/die.wav";
+    // SFX.start.src = "sfx/start.wav";
+    // SFX.flap.src = "sfx/flap.wav";
+    // SFX.score.src = "sfx/score.wav";
+    // SFX.hit.src = "sfx/hit.wav";
+    // SFX.die.src = "sfx/die.wav";
 
   function gameLoop() {
     update();

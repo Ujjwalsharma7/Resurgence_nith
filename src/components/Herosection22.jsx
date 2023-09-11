@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from "@material-tailwind/react";
-import Socials from "./SocialMediaIcons";
+// import Socials from "./SocialMediaIcons";
 import bg from "../assets/images/bg.svg";
 import NavbarDefault from "../components/Navbar";
 import Typewriter from "typewriter-effect";
