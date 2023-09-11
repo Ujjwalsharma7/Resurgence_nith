@@ -10,9 +10,15 @@
 }
 
 @font-face {
-  font-family: "lato";
-  src: url("./assets/fonts/Lato/Lato-Black.ttf") format("ttf");
+  font-family: "BalAstaral";
+  src: url("./assets/fonts/MoonwalkMiss-BgZB.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "lato";
+  src: url("./assets/fonts/Lato/Lato-Black.ttf") format("truetype");
+}
+
 :root {
     background-color: #171717;
     font-size: 16px;
@@ -24,9 +30,5 @@
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
+    
 }
